@@ -10,7 +10,7 @@ from pip.req import parse_requirements
 from adlibre_tms import __version__ as VERSION
 
 
-install_reqs = parse_requirements('requirements.txt',pip.download.PipSession())
+install_reqs = parse_requirements('requirements.txt',session=pip.download.PipSession())
 requirements = [str(ir.req) for ir in install_reqs]
 
 
