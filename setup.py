@@ -2,6 +2,7 @@
 
 import os
 import fnmatch
+import pip.download
 
 from setuptools import setup, find_packages
 
