@@ -40,7 +40,7 @@ Within a clean virtualenv run the following command to install Adlibre TMS and a
 
 Production:
 
-    pip install git+git://github.com/adlibre/Adlibre-TMS.git
+    pip install --allow-external py-dom-xpath --allow-unverified py-dom-xpath git+git://github.com/adlibre/Adlibre-TMS.git
 
 Development:
 
